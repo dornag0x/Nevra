@@ -230,6 +230,21 @@
     }
 
     @media (max-width: 560px) {
+      .logo {
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .logo img {
+        height: 48px;
+      }
+
+      .hero {
+        padding: 100px 20px 40px;
+        align-items: center;
+      }
+
       .waitlist-form {
         flex-direction: column;
         width: 100%;
@@ -246,13 +261,6 @@
         border-radius: 0 0 2px 2px;
         width: 100%;
         text-align: center;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .logo {
-        top: 24px;
-        left: 24px;
       }
     }
   </style>
